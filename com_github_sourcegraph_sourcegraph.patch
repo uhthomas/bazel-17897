@@ -1,0 +1,22 @@
+diff -urN a/README.md b/README.md
+--- a/README.md	1969-12-31 17:00:00.000000000 -0500
++++ b/README.md	2000-01-01 00:00:00.000000000 -0000
+@@ -36,6 +36,8 @@
+ - **Code intelligence:** Navigate code, find references, see code owners, trace history, and more.
+ - **Fix and refactor:** Roll out large-scale changes to many repositories at once and track big migrations.
+
++https://github.com/bazelbuild/bazel/issues/17897
++
+ ## Getting started
+
+ - [**Download Sourcegraph**](https://about.sourcegraph.com/app) for macOS and Linux
+diff -urN a/docker-images/syntax-highlighter/Cargo.Bazel.lock b/docker-images/syntax-highlighter/Cargo.Bazel.lock
+--- a/docker-images/syntax-highlighter/Cargo.Bazel.lock	1969-12-31 17:00:00.000000000 -0500
++++ b/docker-images/syntax-highlighter/Cargo.Bazel.lock	2000-01-01 00:00:00.000000000 -0000
+@@ -1,5 +1,5 @@
+ {
+-  "checksum": "b0e33cbb50771e246788b9121ca0bfd8f1ca2b55bb2acc8bec8932fd72f5487f",
++  "checksum": "f71a3712e6acffdcd54279ff96e5559e85ab54dd50922b6c86e5208889f90f75",
+   "crates": {
+     "adler 1.0.2": {
+       "name": "adler",

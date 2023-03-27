@@ -10,13 +10,8 @@ diff -urN a/README.md b/README.md
  ## Getting started
 
  - [**Download Sourcegraph**](https://about.sourcegraph.com/app) for macOS and Linux
-diff -urN a/docker-images/syntax-highlighter/Cargo.Bazel.lock b/docker-images/syntax-highlighter/Cargo.Bazel.lock
---- a/docker-images/syntax-highlighter/Cargo.Bazel.lock	1969-12-31 17:00:00.000000000 -0500
-+++ b/docker-images/syntax-highlighter/Cargo.Bazel.lock	2000-01-01 00:00:00.000000000 -0000
-@@ -1,5 +1,5 @@
- {
--  "checksum": "b0e33cbb50771e246788b9121ca0bfd8f1ca2b55bb2acc8bec8932fd72f5487f",
-+  "checksum": "f71a3712e6acffdcd54279ff96e5559e85ab54dd50922b6c86e5208889f90f75",
-   "crates": {
-     "adler 1.0.2": {
-       "name": "adler",
+@@ -69,4 +71,3 @@
+ All files in the `enterprise` and `client/web/src/enterprise` fall under [LICENSE.enterprise](LICENSE.enterprise).
+
+ The remaining files fall under the [Apache 2 license](LICENSE.apache). Sourcegraph OSS is built only from the Apache-licensed files in this repository.
+-
